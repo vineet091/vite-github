@@ -34,9 +34,9 @@ Steps to Deploy to Netlify
 2) install netlify-cli -g
 3) netlify login
 4) netlify init  //node version v18.16.0
-5) follow the steps at cli to setup deployment
-6) Auto trigger the deployment
-7) Goto netlify website and open deployed link
+5) follow the steps on cli to setup deployment
+6) netlify open // will open the netlify website with site
+7) open deployed link
 
 Steps to deploy to Vercel
 1) Goto vite-config file remove base path line i.e base: "/vite-github/" //if it is preseont
