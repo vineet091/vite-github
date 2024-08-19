@@ -22,6 +22,7 @@ Steps -
 
 
 Steps to deploy to github pages 
+1)  add  base: "/vite-github/", to vite.config.js
 1) Go to project settings
 2) Select githup pages
 3) Add actions to deploy
@@ -35,4 +36,4 @@ Steps to Deploy to Netlify
 4) netlify init
 5) give deploy command and deploy folder
 6) Auto trigger the deployment
-7) Goto netlify website and open deployed url
+7) Goto netlify website and open deployed 
