@@ -21,9 +21,18 @@ Steps -
 10) add .env.development .env.production
 
 
-Steps to deploy to git hub pages 
+Steps to deploy to github pages 
 1) Go to project settings
 2) Select githup pages
 3) Add actions to deploy
 4) make changes to static.yaml file // add steps to build and deploy
-5) Goto actions trigger action and goto
+5) Goto actions trigger action and goto https://vineet091.github.io/vite-github/
+
+Steps to Deploy to Netlify
+1) Goto vite-config file remove base path line
+2) install netlify-cli -g
+3) netlify login
+4) netlify init
+5) give deploy command and deploy folder
+6) Auto trigger the deployment
+7) Goto netlify website and open deployed url
