@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Netlify + Vercel
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -20,3 +20,10 @@ Steps -
 9) add tailwind dependecies to main css file
 10) add .env.development .env.production
 
+
+Steps to deploy to git hub pages 
+1) Go to project settings
+2) Select githup pages
+3) Add actions to deploy
+4) make changes to static.yaml file // add steps to build and deploy
+5) Goto actions trigger action and goto
