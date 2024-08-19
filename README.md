@@ -22,18 +22,28 @@ Steps -
 
 
 Steps to deploy to github pages 
-1)  add  base: "/vite-github/", to vite.config.js
-1) Go to project settings
-2) Select githup pages
-3) Add actions to deploy
-4) make changes to static.yaml file // add steps to build and deploy
-5) Goto actions trigger action and goto https://vineet091.github.io/vite-github/
+1) Add  base: "/vite-github/", to vite.config.js to setup baseurl.
+2) Go to project settings
+3) Select githup pages
+4) Add actions to deploy
+5) make changes to static.yaml file // add steps to build and deploy
+6) Goto actions trigger action and goto https://vineet091.github.io/vite-github/
 
 Steps to Deploy to Netlify
-1) Goto vite-config file remove base path line
+1) Goto vite-config file remove base path line i.e base: "/vite-github/" //if it is preseont
 2) install netlify-cli -g
 3) netlify login
 4) netlify init
 5) give deploy command and deploy folder
 6) Auto trigger the deployment
-7) Goto netlify website and open deployed 
+7) Goto netlify website and open deployed link
+
+Steps to deploy to Vercel
+1) Goto vite-config file remove base path line i.e base: "/vite-github/" //if it is preseont
+2) login to vercel.com
+3) npm install vercel -g
+4) vercel
+5) follow the cli setup steps
+6) deploy the code
+7) goto vercel.com and click onto deployed link
+
