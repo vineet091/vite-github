@@ -33,8 +33,8 @@ Steps to Deploy to Netlify
 1) Goto vite-config file remove base path line i.e base: "/vite-github/" //if it is preseont
 2) install netlify-cli -g
 3) netlify login
-4) netlify init
-5) give deploy command and deploy folder
+4) netlify init  //node version v18.16.0
+5) follow the steps at cli to setup deployment
 6) Auto trigger the deployment
 7) Goto netlify website and open deployed link
 
